@@ -1,0 +1,18 @@
+/* DualSense custom skin */
+
+.controller.ds5 {
+    background: none !important;
+}
+
+.controller.ds5 .body {
+    background-image: url("https://raw.githubusercontent.com/madryboy/gamepadviewer-skins/main/dualsense-weed.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 600px;
+}
+
+.controller.ds5 svg {
+    display: none !important;
+}
