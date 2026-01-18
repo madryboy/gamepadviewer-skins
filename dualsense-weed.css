@@ -1,11 +1,8 @@
-/* DualSense custom skin */
+/* DualSense Custom Skin */
 
+/* Main controller */
 .controller.ds5 {
-    background: none !important;
-}
-
-.controller.ds5 .body {
-    background-image: url("https://raw.githubusercontent.com/madryboy/gamepadviewer-skins/main/dualsense-weed.png");
+    background-image: url("https://raw.githubusercontent.com/YOURUSERNAME/gamepadviewer-skins/main/dualsense-weed.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,6 +10,14 @@
     height: 600px;
 }
 
+/* Hide default shell artwork */
 .controller.ds5 svg {
     display: none !important;
+}
+
+/* Keep buttons visible */
+.controller.ds5 .button,
+.controller.ds5 .stick,
+.controller.ds5 .trigger {
+    opacity: 1;
 }
