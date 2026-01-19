@@ -1,0 +1,31 @@
+/*
+  GamepadViewer – Custom PS5 Skin
+  User: madryboy
+*/
+
+/* Force custom controller shell */
+.controller.custom {
+    background-image: url("https://raw.githubusercontent.com/madryboy/gamepadviewer-skins/main/ps5nobackground.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 900px;
+    height: 600px;
+}
+
+/* Hide default SVG controller artwork */
+.controller.custom svg {
+    display: none !important;
+}
+
+/* Ensure buttons remain visible and animated */
+.controller.custom .button,
+.controller.custom .stick,
+.controller.custom .trigger {
+    opacity: 1;
+}
+
+/* Optional: remove default shadows */
+.controller.custom {
+    box-shadow: none !important;
+}
