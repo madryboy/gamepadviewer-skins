@@ -1,27 +1,17 @@
-/* DualSense Custom Skin */
+/* Custom GamepadViewer skin */
 
-/* Main controller */
-.controller.ds5 {
+.controller.custom {
     background-image: url("https://raw.githubusercontent.com/madryboy/gamepadviewer-skins/main/ps5nobackground.png");
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: contain;
     background-position: center;
     width: 900px;
     height: 600px;
 }
 
-/* Hide default shell artwork */
-.controller.ds5 svg {
+/* Hide default SVG controller */
+.controller.custom svg {
     display: none !important;
 }
-
-/* Keep buttons visible */
-.controller.ds5 .button,
-.controller.ds5 .stick,
-.controller.ds5 .trigger {
-    opacity: 1;
-}
-
-
 
 
