@@ -2,7 +2,7 @@
 
 /* Main controller */
 .controller.ds5 {
-    background-image: url("https://github.com/madryboy/gamepadviewer-skins/blob/main/ps5nobackground.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/madryboy/gamepadviewer-skins/main/ps5nobackground.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,6 +21,7 @@
 .controller.ds5 .trigger {
     opacity: 1;
 }
+
 
 
 
